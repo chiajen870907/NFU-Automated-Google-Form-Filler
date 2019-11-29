@@ -71,9 +71,6 @@ def ParsingHTML(url):
         payload2.pop(page1_data[i])
 
     payload = merge(payload2, payload1)
-    # print(payload)
-    #print(url_)
-    #a = session.post(url_,payload)
     Response = session.post('https://docs.google.com/forms/d/e/1FAIpQLSfDB-2aS7vjsCGZxOzyHLwFnk0kqO2tFwc1PojVDFLOectT5g/formResponse',payload)
     return Response
 
