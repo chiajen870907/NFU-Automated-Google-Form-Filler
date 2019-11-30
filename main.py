@@ -62,7 +62,7 @@ def ParsingHTML(url):
     fvv_ = soup.find('input', {'name': 'fvv'}).get('value')
     url_ = soup.find('meta', {'property': 'og:url'}).get('content')
     url_ = url_.replace('viewform?usp=send_form&usp=embed_facebook', 'formResponse')
-    draftResponse_ = '[[[null,{},["學生"],0],[null,{},["男"],0],[null,{},["1次至5次"],0],[null,{},["40671225@gm.nfu.edu.tw"],0]],null,"{}"]'.format(draftResponse_data[0], draftResponse_data[1], draftResponse_data[2], draftResponse_data[3], fbzx_)
+    draftResponse_ = '[[[null,{},["學生"],0],[null,{},["男"],0],[null,{},["1次至5次"],0],[null,{},["mail"],0]],null,"{}"]'.format(draftResponse_data[0], draftResponse_data[1], draftResponse_data[2], draftResponse_data[3], fbzx_)
 
     payload1 = {'fvv': fvv_, 'draftResponse': draftResponse_, 'pageHistory': '0,1', 'fbzx': fbzx_}
     payload2 = dict(zip(result, value))
