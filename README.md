@@ -1,4 +1,10 @@
-# Google-Form-Auto-Fill
-GoogleForms
-DEMO
-![image](https://github.com/chiajen870907/Google-Form-Auto-Fill/blob/master/2019-11-30.png)
+# NFU 行政單位服務滿意度 自動填寫機器人
+## ``專案日期: 11.30.2019``
+~~聽說填寫滿意度調查表可以參加抽獎 所以江江江獎?~~
+
+---
+爬蟲小玩具，自動爬取可以填寫的處室，然後填爆
+
+### 宣告
+目的僅為純學習用，非任何其他用途。
+
